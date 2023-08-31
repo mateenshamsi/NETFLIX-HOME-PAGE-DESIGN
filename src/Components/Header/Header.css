@@ -1,0 +1,37 @@
+.Header{ 
+    height: 80px;
+
+    background-color: rgb(30,30,30);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Header >img{ 
+    height:90%;
+    display: flex;
+    text-align: left;
+}
+.Links{
+    
+    display:flex;
+    
+    width:100% ; 
+    
+}
+.Links>a{ 
+   margin:1vmax ;
+   font-size:1.25 rem ; 
+   font-weight:500 ;  
+}
+.Header>svg{
+    color:white ; 
+    padding:2px ; 
+    margin-right:10px ; 
+    font-size:1.5rem;
+    cursor:pointer ; 
+}
+svg:hover{ 
+    color:gray;
+    
+}
